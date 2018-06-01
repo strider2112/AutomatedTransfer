@@ -21,3 +21,5 @@ esac
 # Starts the process in a detached screen so it can be monitored
 # Screen closes when done
 screen -dmS Xfer "$DIR/data/GetFiles.sh"
+
+exit 0
