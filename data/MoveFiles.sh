@@ -9,5 +9,7 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 # Calls the binary sorttv.pl
 nice "$perlinstallation" "$sorttvinstallation" --directory-to-sort="$directorytosort" --movie-directory="$moviedirectory" --tv-directory="$tvdirectory"
 
-# Update symbolic links, I use this to update symbolic links on my system
-"$DIR"/UpdateLinks.sh
+# Update symbolic links
+if [ "$useSymbolicLinking" eq "yes" ]; then
+	"$DIR"/UpdateLinks.sh
+fi
