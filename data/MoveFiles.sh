@@ -13,3 +13,5 @@ nice "$perlinstallation" "$sorttvinstallation" --directory-to-sort="$directoryto
 if [ "$useSymbolicLinking" eq "yes" ]; then
 	"$DIR"/UpdateLinks.sh
 fi
+
+exit 0
