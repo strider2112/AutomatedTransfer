@@ -24,3 +24,5 @@ Setup:
 Using the Scripts:
 1. Make sure the script FileTransfer is set to executable (chmod +x FileTransfer)
 2. Run it by typing ./FileTransfer, or make a symbolic link to a directory in your PATH variable
+
+Typing FileTransfer -h|--help will show this page.
