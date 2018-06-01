@@ -6,4 +6,4 @@ DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 cp -sR "$linkFromLocationMovies" "$linkToLocationMoves"
 cp -sR "$linkFromLocationTV" "$linkToLocationTV"
 
-clear
+exit 0
